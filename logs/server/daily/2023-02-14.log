@@ -1,0 +1,72 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T06:41:14.630Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T06:41:18.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T07:30:45.413Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:30:48.441Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T07:37:46.257Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:37:49.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T07:41:07.568Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:41:10.630Z"}
+error: 
+    status - 500 
+    message - ValidationError: "number" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-14T07:42:35.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T07:44:50.524Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:44:53.511Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/63eb3c629a7cb90ac854a4b8 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-14T07:51:37.479Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/63eb3c629a7cb90ac854a4b8 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-14T07:52:57.432Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/63eb3c629a7cb90ac854a4b8 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-14T07:55:50.642Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/63eb3c629a7cb90ac854a4b8 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-14T09:20:00.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T10:26:12.347Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:26:15.473Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/63eb3c629a7cb90ac854a4b8 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-14T10:26:20.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T10:27:09.043Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:27:12.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-14T11:57:27.100Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T11:57:30.106Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-14T11:57:34.582Z"}
+error: 
+    status - 500 
+    message - ValidationError: "address" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-14T11:57:48.513Z"}

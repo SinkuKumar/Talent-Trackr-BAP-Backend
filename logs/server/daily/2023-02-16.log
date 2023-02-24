@@ -1,0 +1,50 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-16T06:27:58.747Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T06:27:58.787Z"}
+error: 
+      status - 8000
+      message - cannot create a new database -- already using 100 databases of 100 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-16T06:29:58.661Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 8000
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.writeHead (node:_http_server:275:11)
+    at ServerResponse.writeHead (D:\Demo\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (D:\Demo\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Demo\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Demo\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Demo\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Demo\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\Demo\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Demo\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Demo\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Demo\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T06:29:58.686Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-16T06:47:45.810Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T06:47:45.817Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-16T06:50:12.069Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T06:50:12.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T06:51:18.960Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T06:51:18.970Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\Demo\awesome-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T06:52:23.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T06:55:41.260Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T06:55:41.267Z"}
